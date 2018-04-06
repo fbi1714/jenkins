@@ -3,7 +3,7 @@ version: "3.3"
 services:
 
   jenkins:
-    image: fbi1888/jenkins
+    image: ajeetraina/jenkins
     container_name: jenkins
     ports:
       - "8080:8080"
